@@ -1,6 +1,7 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 .container {
@@ -8,4 +9,22 @@
   height: 100vh;
   background-color: #1e2227;
   color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 8%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+.navIcons img {
+  width: 24px;
+  margin-left: 30px;
+  cursor: pointer;
 }
